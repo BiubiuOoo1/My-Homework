@@ -20,7 +20,7 @@
  ![](https://github.com/BiubiuOoo1/My-Homework/blob/master/pictures/31.2.png)
  
  ### query 二：
- **query1 指令：**
+ **query2 指令：**
 ```sql
     select*from t_employee WHERE 
     (sal, job)=(select sal,job from t_employee where ename='smith');
